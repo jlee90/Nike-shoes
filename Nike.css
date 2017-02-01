@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin: 0px!Important;
+    background-color: #101010;
+    overflow-x: hidden;
+    background: url(http://www.eminem.com/sites/deveminem.umg.edrupalgardens.com/files/201310/img-pattern2.png)rgba(0,0,0,0.93);
+}
+
+.container {
+    width: 100%; }
+
+.topnav {
+   height: 60px;
+   padding: 10px;
+   background-color: #101010;
+   display: flex;
+   align-items: center;
+   background: url(http://www.eminem.com/sites/deveminem.umg.edrupalgardens.com/files/201310/img-pattern2.png)rgba(0,0,0,0.4);
+}
+
+img.icon.icons8-Menu {
+   line-height: 60px;
+   padding: 20px; }
+   
+.nikeheading {
+   font-family: Helvetica Neue;
+   color: white;
+   font-size: 50px;
+   font-weight: normal;
+   text-align: center;
+   width: 100%;
+   position:absolute;
+   left: 0;}
+   
+ .color {
+   height: 80px;
+   width: 80px;
+   display: inline-block; }
+   
+.palette {
+    font-size: 0;
+    margin: auto;
+    width: 500px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+
+.palettecontainer {
+    background-color: #000000;
+    border: 0px;
+    /*border-radius: 0px 0px 10% 10%;*/
+    height: 600px;
+    width: 100%;
+}
+
+
+.ItemName {
+    width: 500px;
+    position: absolute;
+    font-size: 20px;
+    line-height: 80px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    opacity: 0;
+    transition: 0.15s;
+}
+
+.ItemName:hover {
+    opacity: 1; }
+
+@media screen and (max-width: 360px) {
+  .box {
+    height: 500px;
+  }
+}
